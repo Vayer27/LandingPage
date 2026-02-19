@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding: 20px 15%;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+header a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.first-content {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 100px 15%;
+}
+
+.first-content h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.first-content p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-content button {
+    border: none;
+    border-radius: 5px;
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    font-weight: 700;
+}
+
+.first-content img {
+    width: 100%;
+}
+
+.second-content {
+    padding: 50px 15% 100px;
+}
+
+.second-content h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.second-content>div {
+    display: flex;
+    gap: 24px;
+}
+
+.second-content img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.second-content p {
+    font-size: 18px;
+    color: #777;
+    text-align: center;
+    margin: 0;
+}
+
+.third-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 15%;
+    background-color: #e5e7eb;
+}
+
+.third-content .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    margin: 0;
+}
+
+.third-content .quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    margin: 0 50px;
+}
+
+.fourth-content {
+    padding: 100px 15%;
+}
+
+.fourth-content .blue-box{
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 32px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourth-content .blue-box-title {
+    margin: 0;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.fourth-content .blue-box-subtitle {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.fourth-content button {
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    color:#f9faf8;
+    background-color: transparent;
+    padding: 5px 20px;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 24px 15%;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    color:#e5e7eb;
+    font-size: 18px;
+}
